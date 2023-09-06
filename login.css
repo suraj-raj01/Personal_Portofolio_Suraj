@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 6rem;
+    border-radius: 1.2rem;
+    font-size: medium;
+    font-weight: bold;
+    color:orangered;
+    border: 3px solid blue;
+    background-color: rgba(20, 0, 80, 0.9);
+}
+
+.container:hover{
+    transition: 0.8s;
+    cursor: pointer;
+    box-shadow: 0px 0px 600px 300px rgba(0, 0, 90, 0.9);
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.container h2 {
+    font-size: 2rem;
+    margin: .9rem;
+    color: white;
+}
+
+.container form input {
+    font-weight: normal;
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container form .username {
+    margin-bottom: .7rem;
+}
+
+.container form i {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.container form input {
+    font-size: 1rem;
+}
+
+.userArea {
+    margin-bottom: .7rem;
+}
+
+.container form .forgotPassword {
+    position: absolute;
+    right: 0rem;
+    cursor: pointer;
+    bottom: 17rem;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .9rem;
+}
+
+.formBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formBottom ul {
+    margin-bottom: 1.5rem;
+}
+
+.formBottom p {
+    margin-bottom: .4rem;
+    font-size: .8rem;
+}
+
+.flexUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexUl a {
+    text-decoration: none;
+}
+
+.flexUl li {
+    list-style: none;
+}
+
+.flexUl li i {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.fa-google {
+    color: whitesmoke;
+    background-color: black;
+}
+
+.fa-twitter {
+    background-color: black
+}
+
+.fa-facebook-f {
+    color: white;
+    background-color: black;
+}
+.fa-github {
+    color: white;
+     background-color: black;
+ }
+
+
+/* Utility Classes */
+.t-center {
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    padding: 0.9rem 0.8rem;
+    background-color: blue;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.btn:hover{
+    transition: 1.2s;
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+#signUp {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#signUp a{
+    text-decoration: none;
+    color: white;
+}
+
+#signUp a:hover {
+    color: orangered;
+}
